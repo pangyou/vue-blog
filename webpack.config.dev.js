@@ -4,7 +4,7 @@ module.exports = merge(require('./webpack.config.base'), {
   devServer: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3001',
+        target: 'http://localhost:3000',
         changeOrigin: true,
         secure: false,
         pathRewrite: {
