@@ -52,13 +52,10 @@ some tips:
 
 ## 更新日志
 
-1
 * 完成`post`静态页面原型,修复`webpack`使用`extractTextPlugin`的正确姿势
 
-2
-
 * 添加`about`静态页面
-3
+
 * 添加`json-server`. [使用方法请戳我](https://github.com/typicode/json-server)
 
 主要作用就是在你开发环节在后端同学还未开发完成的情况下，提供一个`mock backend server`。 
@@ -70,7 +67,6 @@ PS: 因为你`webpack-dev-server`占用了一个端口,那么`json-server`需要
 
 具体的配置信息，见`webpack.config.dev.js`文件
 
-4
 * 添加`axios`作为`http`资源库
 
 其实`vue`对于开发者使用什么资源库没做什么限制。使用你顺手的就好了。
@@ -81,22 +77,24 @@ PS: 因为你`webpack-dev-server`占用了一个端口,那么`json-server`需要
 
 [vue添加插件的方法请戳我](https://cn.vuejs.org/v2/guide/plugins.html)
 
-### 2.18更新
 
-5
 * 添加`webpack`生产环境配置信息
 
 见`webpack.config.prod.js`文件。主要添加的内容为文件的`hash`，文件的打包及输出内容
 
-6
 * `tags`页面添加`vue-router`路由动态匹配
 
 [使用方法请戳我](http://router.vuejs.org/zh-cn/essentials/dynamic-matching.html)
 
-7
 
 * 添加mock数据, 见`lib/mock/db.json`文件
 * 完成`archive`静态页面
+
+
+###启动数据服务
+npm run server  
+###启动测试环境
+npm run dev
 
 
 ### 最近这2天有点忙，server端从周四开始更新，望大家理解

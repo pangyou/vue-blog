@@ -57,6 +57,7 @@
     "webpack-merge": "^2.6.1"
   },
   "dependencies": {
-    "express": "^4.15.0"
+    "express": "^4.15.0",
+    "json-server": "^0.16.1"
   }
 }
